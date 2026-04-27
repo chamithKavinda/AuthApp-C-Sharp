@@ -1,0 +1,33 @@
+@{ ViewData["Title"] = "Dashboard"; }
+
+<div class="dashboard-wrapper">
+    <nav class="dash-nav">
+        <div class="dash-logo">⚡ AuthApp</div>
+        <a asp-controller="Account" asp-action="Logout" class="btn-logout">Logout</a>
+    </nav>
+
+    <div class="dash-content">
+        <div class="welcome-card">
+            <h1>Welcome, @ViewBag.UserName! 👋</h1>
+            <p>Logged in as <strong>@ViewBag.UserEmail</strong></p>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <span class="stat-icon">📊</span>
+                <h3>Analytics</h3>
+                <p>View your data insights</p>
+            </div>
+            <div class="stat-card">
+                <span class="stat-icon">⚙️</span>
+                <h3>Settings</h3>
+                <p>Manage your preferences</p>
+            </div>
+            <div class="stat-card">
+                <span class="stat-icon">🔔</span>
+                <h3>Notifications</h3>
+                <p>Stay up to date</p>
+            </div>
+        </div>
+    </div>
+</div>
