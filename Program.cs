@@ -20,6 +20,7 @@ builder.Services.AddSession(options =>
 
 var app = builder.Build();
 
+app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 app.UseSession();
@@ -28,5 +29,4 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Account}/{action=SignIn}/{id?}");
-
 app.Run();
