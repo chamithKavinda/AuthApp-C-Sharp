@@ -22,6 +22,22 @@ This project is a simple authentication system built using **C#**, **.NET**, and
 
 ---
 
+SignUp Form
+
+<img width="1463" height="819" alt="Image" src="https://github.com/user-attachments/assets/d6d3450f-409b-4fe3-90bc-c9ef678868ed" />
+
+---
+SignIn Form
+
+<img width="1458" height="818" alt="Image" src="https://github.com/user-attachments/assets/8be95066-c6dd-4aad-ba98-01639b7bb25b" />
+
+---
+Dashboard
+
+<img width="1458" height="813" alt="Image" src="https://github.com/user-attachments/assets/ee0a3b66-d192-4760-9a0d-317b157b8658" />
+
+---
+
 ## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](https://github.com/chamithKavinda/AuthApp-C-Sharp?tab=MIT-1-ov-file) file for details.
